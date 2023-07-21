@@ -62,6 +62,6 @@ while True:
         print(type(json.loads(res.content)['success']))
         print("2■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■")
         print(time.asctime())
-        requests.get('https://api.day.app/vLSvc5LgUZSwS4jrHcy7VC/出错了')
+        # bark通知方式 requests.get('https://api.day.app/vLSvc5LgZSwS4jrHcy7VC/出错了')
         break
 
