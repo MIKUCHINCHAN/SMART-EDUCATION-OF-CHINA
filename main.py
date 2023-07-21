@@ -48,7 +48,7 @@ while True:
         if eval(json.loads(res.content)["data"]["progress"])==1:
             # bark通知方式 requests.get('https://api.day.app/vLSgUZSwS4jrHcy7VC/完成了')
             print('完成了')
-            time.sleep(300)
+            time.sleep(51)
             break
 
 
